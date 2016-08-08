@@ -17,7 +17,7 @@ namespace Tasky.BL
         public int ID { get; set; }
 		public string Name { get; set; }
 		public string Notes { get; set; }
-        public string[] SubTasks { get; set; }
+        public string SubTasks { get; set; }
 		// new property
 		public bool Done { get; set; }
 	}
